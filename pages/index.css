@@ -82,6 +82,8 @@
   color: #838383;
 }
 .header__hours {
+  margin: 0;
+  color: #838383;
 }
 .nav {
   display: flex;
@@ -168,4 +170,110 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+.reservation {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  justify-content: center;
+}
+.reservation__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  color: #000;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+}
+.reservation__form {
+  margin-bottom: 120px;
+}
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__input {
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  border: 1px solid #838383;
+  max-width: 385px;
+  padding: 15px 20px;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+.form__input::placeholder {
+  color: #838383;
+}
+.form__label {
+  margin-bottom: 8px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+.form__button {
+  display: block;
+  max-width: 385px;
+  width: 100%;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #1878dc;
+  transition: background-color 0.3s ease;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+.form__button:hover {
+  background-color: #3f96f3;
+}
+.form__checkbox {
+  border-radius: 2px;
+  gap: 12px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+input[type="checkbox"]:checked {
+  accent-color: #1878dc;
+  background-image: url(../images/check.svg);
+}
+.form__label_type_checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
