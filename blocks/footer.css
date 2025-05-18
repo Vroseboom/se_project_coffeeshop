@@ -22,6 +22,7 @@
 }
 .footer__social-heading {
   color: #fff;
+  list-style: none;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
