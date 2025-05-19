@@ -6,7 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
 }
 .recipes__title {
   max-width: 580px;
@@ -22,6 +21,7 @@
 }
 .recipes__subtitle {
   max-width: 438px;
+  margin: 0;
   margin-left: 80px;
   color: #fff;
   font-family: "Noto Serif", Times New Roman, serif;
@@ -38,6 +38,7 @@
 }
 
 .recipes__iframe {
+  border: 0;
   margin-bottom: 24px;
   width: 480px;
   height: 273px;

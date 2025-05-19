@@ -18,14 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="icon" href="favicon.ico.ico" type="image/x-icon" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <title>Coffee Shop</title>
   </head>
   <body>
@@ -71,20 +65,18 @@
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class="header__address">
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
         <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recipes</h2>
-          <h3 class="recipes__subtitle">
+          <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </h3>
+          </p>
           <div class="recipes__videos">
             <div class="recipes__video-container">
               <iframe
@@ -169,13 +161,13 @@
         </section>
         <section id="menu" class="menu">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">
+          <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
-          </h3>
+          </p>
           <div class="menu__cards">
             <ul class="card">
-              <li class="card__title">Filter</li>
+              <h2 class="card__title">Filter</h2>
               <li class="card__list-item">
                 Regular (12 oz)
                 <span class="card__list-divider"> </span>
@@ -202,8 +194,9 @@
                 $1.25
               </li>
             </ul>
+
             <ul class="card">
-              <li class="card__title">Espresso</li>
+              <h2 class="card__title">Espresso</h2>
               <li class="card__list-item">
                 Macchiato
                 <span class="card__list-divider"> </span>
@@ -226,7 +219,7 @@
               </li>
             </ul>
             <ul class="card">
-              <li class="card__title">Baked Goods</li>
+              <h2 class="card__title">Baked Goods</h2>
               <li class="card__list-item">
                 Almond Croissant
                 <span class="card__list-divider"> </span>
@@ -284,27 +277,31 @@
         <div class="footer__content">
           <img
             class="footer__logo"
-            src="../images/logo_coffeeshop_light.svg"
+            src="/images/logo_coffeeshop_light.svg"
             alt="Triple Espresso logo"
           />
           <div class="footer__column">
             <ul class="footer__list">
-              <li class="footer__social-heading">Social media</li>
+              <h2 class="footer__social-heading">Social media</h2>
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="../images/facebook_white.svg"
-                  alt="Phone icon"
-                />
-                <a class="footer__social-link">Facebook</a>
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/facebook_white.svg"
+                    alt="Phone icon"
+                  />
+                  Facebook
+                </a>
               </li>
               <li class="footer__list-item">
-                <img
-                  class="footer__social-icon"
-                  src="../images/instagram_white.svg"
-                  alt="Instagram icon"
-                />
-                <a class="footer__social-link">Instagram</a>
+                <a class="footer__social-link" href="#">
+                  <img
+                    class="footer__social-icon"
+                    src="/images/instagram_white.svg"
+                    alt="Instagram icon"
+                  />
+                  Instagram
+                </a>
               </li>
             </ul>
           </div>
