@@ -55,6 +55,7 @@
 }
 .header__paragraph {
   margin: 0;
+  font-weight: 500;
 }
 .header__footer {
   margin-top: auto;
@@ -70,10 +71,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-}
-.header__address {
-  margin: 0;
-  color: #838383;
 }
 .header__hours {
   margin: 0;
